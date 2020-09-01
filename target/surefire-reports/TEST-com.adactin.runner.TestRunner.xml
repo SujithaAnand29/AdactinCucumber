@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.adactin.runner.TestRunner" time="44.424" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\eclipse-workspace\new maven\AdactinCucumber\target\test-classes;C:\Users\user\eclipse-workspace\new maven\AdactinCucumber\target\classes;C:\Users\user\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\user\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\user\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\user\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\user\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\user\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire8991630787593002129\surefirebooter5193914834522922306.jar C:\Users\user\AppData\Local\Temp\surefire8991630787593002129 2020-08-28T22-05-25_889-jvmRun1 surefire2673784938485473728tmp surefire_018248047312495220006tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\eclipse-workspace\new maven\AdactinCucumber\target\test-classes;C:\Users\user\eclipse-workspace\new maven\AdactinCucumber\target\classes;C:\Users\user\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\user\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\user\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\user\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\user\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\user\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\user\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\eclipse-workspace\new maven\AdactinCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire8991630787593002129\surefirebooter5193914834522922306.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\user\eclipse-workspace\new maven\AdactinCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-14.0.2/bin/server;C:/Program Files/Java/jdk-14.0.2/bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Maven\bin;C:\Users\user\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="Given User launch the Adactin application" classname="| AAA | 1111 |" time="0.004"/>
+  <testcase name="When User log into the application" classname="| AAA | 1111 |" time="0.001"/>
+  <testcase name="Given User launches the application" classname="| AAA | 1111 |" time="0"/>
+  <testcase name="When User enters the valid &quot;AAA&quot; in Username field" classname="| AAA | 1111 |" time="0.002"/>
+  <testcase name="And User enters the valid &quot;1111&quot; in password field" classname="| AAA | 1111 |" time="0"/>
+  <testcase name="And User clicks the Login Button" classname="| AAA | 1111 |" time="0"/>
+  <testcase name="Then User verify the SignInPage navigates to the Search Hotel page" classname="| AAA | 1111 |" time="0"/>
+  <testcase name="| AAA | 1111 |" classname="| AAA | 1111 |" time="0.002"/>
+  <testcase name="Given User launch the Adactin application" classname="| BBBB | 3333 |" time="0"/>
+  <testcase name="When User log into the application" classname="| BBBB | 3333 |" time="0.001"/>
+  <testcase name="Given User launches the application" classname="| BBBB | 3333 |" time="0"/>
+  <testcase name="When User enters the valid &quot;BBBB&quot; in Username field" classname="| BBBB | 3333 |" time="0"/>
+  <testcase name="And User enters the valid &quot;3333&quot; in password field" classname="| BBBB | 3333 |" time="0.001"/>
+  <testcase name="And User clicks the Login Button" classname="| BBBB | 3333 |" time="0"/>
+  <testcase name="Then User verify the SignInPage navigates to the Search Hotel page" classname="| BBBB | 3333 |" time="0.001"/>
+  <testcase name="| BBBB | 3333 |" classname="| BBBB | 3333 |" time="0.03"/>
+  <testcase name="Given User launch the Adactin application" classname="| sujithaanand | suji@29 |" time="0"/>
+  <testcase name="When User log into the application" classname="| sujithaanand | suji@29 |" time="0"/>
+  <testcase name="Given User launches the application" classname="| sujithaanand | suji@29 |" time="0"/>
+  <testcase name="When User enters the valid &quot;sujithaanand&quot; in Username field" classname="| sujithaanand | suji@29 |" time="0.004"/>
+  <testcase name="And User enters the valid &quot;suji@29&quot; in password field" classname="| sujithaanand | suji@29 |" time="0.001"/>
+  <testcase name="And User clicks the Login Button" classname="| sujithaanand | suji@29 |" time="0"/>
+  <testcase name="Then User verify the SignInPage navigates to the Search Hotel page" classname="| sujithaanand | suji@29 |" time="0"/>
+  <testcase name="| sujithaanand | suji@29 |" classname="| sujithaanand | suji@29 |" time="0.001"/>
+  <testcase name="Given User launch the Adactin application" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="When User log into the application" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="When User selects the &quot;Sydney&quot; as &quot;value&quot; in the Select Location field" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User selects the &quot;Hotel Creek&quot; as &quot;visibletext&quot; in the Select Hotel field" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User selects the room type in the Select Room Type field" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User selects the number of rooms" classname="Scenario: Verify user is in SearchHotel page" time="0.001"/>
+  <testcase name="And User selects the check in date" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User selects the check out date" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User enter the adults per Room" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User enter the children per Room" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="And User clicks on Search button to search for the details" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="Then User verify the Search Hotel page navigates to Select Hotel page" classname="Scenario: Verify user is in SearchHotel page" time="0"/>
+  <testcase name="Scenario: Verify user is in SearchHotel page" classname="Scenario: Verify user is in SearchHotel page" time="0.002"/>
+  <testcase name="Given User launch the Adactin application" classname="Scenario: Verify user in Select Hotel page" time="0"/>
+  <testcase name="When User log into the application" classname="Scenario: Verify user in Select Hotel page" time="0"/>
+  <testcase name="When User clicks on the selected radio button" classname="Scenario: Verify user in Select Hotel page" time="0.002"/>
+  <testcase name="And User clicks on continue button" classname="Scenario: Verify user in Select Hotel page" time="0"/>
+  <testcase name="Then User Verify the Select Hotel page navigates to  Hotel Confirmation page" classname="Scenario: Verify user in Select Hotel page" time="0"/>
+  <testcase name="Scenario: Verify user in Select Hotel page" classname="Scenario: Verify user in Select Hotel page" time="0.004"/>
+  <testcase name="Given User launch the Adactin application" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="When User log into the application" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="When User enters the Firstname" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="And User enters the Lastname" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="And User enters the Address" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="And User enters the Cardno" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0.001"/>
+  <testcase name="And User enters the Cardtype" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="And User enters the Expirymonth" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="And User enters the Expiryyear" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0.001"/>
+  <testcase name="And User enters the Cvvnumber" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0.001"/>
+  <testcase name="And User enters the Booknow" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="Then User checks the booking confirmation in the Booking Confirmation page" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="Then User clicks the logout button" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0"/>
+  <testcase name="Scenario: Verify User is in Hotel Confirmation Page" classname="Scenario: Verify User is in Hotel Confirmation Page" time="0.007"/>
+</testsuite>
